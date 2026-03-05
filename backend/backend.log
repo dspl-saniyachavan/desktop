@@ -1,0 +1,32 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+Exception in thread Thread-1 (start_mqtt_sync):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/saniyachavani/Documents/Precision_Pulse/backend/app/__init__.py", line 33, in start_mqtt_sync
+    from app.services.mqtt_sync_service import MQTTSyncService
+  File "/home/saniyachavani/Documents/Precision_Pulse/backend/app/services/mqtt_sync_service.py", line 7, in <module>
+    from gmqtt import Client as MQTTClient
+ModuleNotFoundError: No module named 'gmqtt'
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.125:5000
+Press CTRL+C to quit
+ * Restarting with stat
+Exception in thread Thread-1 (start_mqtt_sync):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/saniyachavani/Documents/Precision_Pulse/backend/app/__init__.py", line 33, in start_mqtt_sync
+    from app.services.mqtt_sync_service import MQTTSyncService
+  File "/home/saniyachavani/Documents/Precision_Pulse/backend/app/services/mqtt_sync_service.py", line 7, in <module>
+    from gmqtt import Client as MQTTClient
+ModuleNotFoundError: No module named 'gmqtt'
+ * Debugger is active!
+ * Debugger PIN: 238-659-429

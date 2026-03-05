@@ -1,0 +1,10 @@
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Flask-CORS==4.0.0
+PyJWT==2.8.0
+python-dotenv==1.0.0
+psycopg2-binary==2.9.9
+bcrypt==4.1.1
+marshmallow==3.20.1
+gmqtt==0.6.16
+websockets==12.0
